@@ -71,7 +71,7 @@ squares.forEach(e => {
                 gameOver = true;
             }else if(e.id == 9 && ( (getSquare(7).innerHTML === 'X' && getSquare(8).innerHTML === 'X') || 
             (getSquare(3).innerHTML === 'X' && getSquare(6).innerHTML === 'X')  ||
-            (getSquare(2).innerHTML === 'X' && getSquare(5).innerHTML === 'X') ))  {
+            (getSquare(3).innerHTML === 'X' && getSquare(5).innerHTML === 'X') ))  {
                 
                 message.innerHTML = `X Won the Game`
                 message.style.color = 'red'; 
