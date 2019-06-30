@@ -71,7 +71,7 @@ squares.forEach(e => {
                 gameOver = true;
             }else if(e.id == 9 && ( (getSquare(7).innerHTML === 'X' && getSquare(8).innerHTML === 'X') || 
             (getSquare(3).innerHTML === 'X' && getSquare(6).innerHTML === 'X')  ||
-            (getSquare(3).innerHTML === 'X' && getSquare(5).innerHTML === 'X') ))  {
+            (getSquare(1).innerHTML === 'X' && getSquare(5).innerHTML === 'X') ))  {
                 
                 message.innerHTML = `X Won the Game`
                 message.style.color = 'red'; 
@@ -142,7 +142,7 @@ squares.forEach(e => {
                 gameOver = true;
             }else if(e.id == 9 && ( (getSquare(7).innerHTML === 'O' && getSquare(8).innerHTML === 'O') || 
             (getSquare(3).innerHTML === 'O' && getSquare(6).innerHTML === 'O')  ||
-            (getSquare(1).innerHTML === 'O' && getSquare(5).innerHTML === 'O') ))  {
+            (getSquare(1).innerHTML === 'O' && getSquare(5).innerHTML === 'O')  ))  {
                 
                 message.innerHTML = `O Won the Game` 
                 message.style.color = 'red'; 
