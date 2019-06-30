@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to right, #066f77, #8aeae6);
+    font-family: 'Merienda', cursive;
+}
+.container  {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bt {
+    border-top: 2px dashed black;
+}
+.bb {
+    border-bottom: 2px dashed black;
+}
+.bl {
+    border-left: 2px dashed black;
+}
+.br {
+    border-right: 2px dashed black;
+}
+td {
+    width: 100px;
+    height: 130px;
+    cursor: pointer;
+    font-size: 3em;
+}
+
+h2 {
+    height: 20px;
+    margin-bottom: 30px;
+}
+.reset {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+}
